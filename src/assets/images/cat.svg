@@ -1,0 +1,50 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 고양이 몸 -->
+  <ellipse cx="100" cy="120" rx="45" ry="35" fill="#ffa500" stroke="#ff8c00" stroke-width="2"/>
+
+  <!-- 고양이 머리 -->
+  <circle cx="100" cy="70" r="35" fill="#ffa500" stroke="#ff8c00" stroke-width="2"/>
+
+  <!-- 고양이 귀 -->
+  <polygon points="80,45 75,25 95,35" fill="#ffa500" stroke="#ff8c00" stroke-width="2"/>
+  <polygon points="120,45 125,25 105,35" fill="#ffa500" stroke="#ff8c00" stroke-width="2"/>
+
+  <!-- 귀 안쪽 -->
+  <polygon points="82,40 80,30 90,35" fill="#ffb84d"/>
+  <polygon points="118,40 120,30 110,35" fill="#ffb84d"/>
+
+  <!-- 고양이 눈 -->
+  <ellipse cx="90" cy="65" rx="6" ry="8" fill="#000"/>
+  <ellipse cx="110" cy="65" rx="6" ry="8" fill="#000"/>
+
+  <!-- 눈 하이라이트 -->
+  <ellipse cx="92" cy="63" rx="2" ry="3" fill="#fff"/>
+  <ellipse cx="112" cy="63" rx="2" ry="3" fill="#fff"/>
+
+  <!-- 고양이 코 -->
+  <polygon points="100,75 96,82 104,82" fill="#ff69b4"/>
+
+  <!-- 고양이 입 -->
+  <path d="M 100 82 Q 95 88 90 85" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M 100 82 Q 105 88 110 85" stroke="#000" stroke-width="2" fill="none"/>
+
+  <!-- 고양이 수염 -->
+  <line x1="65" y1="70" x2="45" y2="68" stroke="#000" stroke-width="2"/>
+  <line x1="65" y1="78" x2="45" y2="78" stroke="#000" stroke-width="2"/>
+  <line x1="135" y1="70" x2="155" y2="68" stroke="#000" stroke-width="2"/>
+  <line x1="135" y1="78" x2="155" y2="78" stroke="#000" stroke-width="2"/>
+
+  <!-- 고양이 다리 -->
+  <ellipse cx="80" cy="150" rx="8" ry="15" fill="#ffa500" stroke="#ff8c00" stroke-width="2"/>
+  <ellipse cx="120" cy="150" rx="8" ry="15" fill="#ffa500" stroke="#ff8c00" stroke-width="2"/>
+
+  <!-- 고양이 발 -->
+  <ellipse cx="80" cy="165" rx="10" ry="6" fill="#ff8c00"/>
+  <ellipse cx="120" cy="165" rx="10" ry="6" fill="#ff8c00"/>
+
+  <!-- 고양이 꼬리 -->
+  <path d="M 145 120 Q 165 100 175 80 Q 180 60 170 45" stroke="#ffa500" stroke-width="15" fill="none" stroke-linecap="round"/>
+
+  <!-- 배 무늬 -->
+  <ellipse cx="100" cy="125" rx="20" ry="15" fill="#ffb84d"/>
+</svg>
